@@ -11,7 +11,7 @@ const Posts = (props) => {
       {/* map through the posts here to return a Post component */}
       {/* Check the implementation of Post to see what props it requires! */}
     {posts.map(postItem => 
-      <Post post={postItem} />)
+      <Post post={postItem} likePost={likePost}/>)
     }
     </div>
   );
